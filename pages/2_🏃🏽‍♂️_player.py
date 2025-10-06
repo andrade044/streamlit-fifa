@@ -56,22 +56,6 @@ col2.metric(label="Remuneração semanal", value=f"£ {player_stats['Wage(£)']:
 col3.metric(label="Cláusula de rescisão", value=f"£ {player_stats['Release Clause(£)']:,}")
 
 
-# import requests
-# from PIL import Image
-# from io import BytesIO
 
-
-# photo_url = player_stats["Photo"].strip()
-# # st.write(f"URL da imagem: {photo_url}")  # só para verificar
-
-# if photo_url.startswith("http"):
-#     try:
-#         response = requests.get(photo_url)
-#         img = Image.open(BytesIO(response.content))
-#         st.image(img, width=200)
-#     except Exception as e:
-#         st.error(f"Erro ao carregar a imagem: {e}")
-# else:
-#     st.warning("URL da imagem inválida.")
 
 
